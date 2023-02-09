@@ -11,22 +11,6 @@
     src: url(fonts/kinopoisk-medium.woff2);
 }
 
-/* h2 {
-    color: white;
-}
-
-p {
-    color: white;
-}
-
-ul {
-    color: white;
-}
-
-ol {
-    color: white;
-} */
-
 nav {
     background-color: #FFFF;
 }
@@ -79,8 +63,8 @@ nav {
 }
 
 .FaQ {
-    width: 60%;
-    margin: 2% 20%;
+    width: 70%;
+    margin: 2% 15%;
 }
 
 .FaQ__header {
@@ -95,7 +79,7 @@ nav {
 }
 
 .request__form iframe {
-    width: 700px;
+    width: 70%;
     text-align: center;
     margin: auto;
 }
@@ -122,8 +106,8 @@ nav {
 }
 
 .carousel {
-    width: 60%;
-    margin: 2% 20%;
+    width: 80%;
+    margin: 2% 10%;
 }
 
 .carousel__header {
@@ -131,60 +115,6 @@ nav {
     text-align: center;
 }
 
-@media screen and (max-width: 400px) {
-    .logos {
-        display: none;
-    }
-    .logos__mob {
-        display: block;
-    }
-    .footer_1 {
-        display: flex;
-        background-color: #F5F5F5;
-        box-shadow: 0px -15px 9px 0px rgba(34, 60, 80, 0.45);
-    }
-    .footer_1 img {
-        width: 200px;
-    }
-    .cow {
-        width: 30%;
-        left: -50px;
-        rotate: 165deg;
-    }
-    .cycle1 {
-        top: -450px;
-        left: 290px;
-    }
-    .cycle2 {
-        top: -450px;
-        left: 220px;
-    }
-    .cycle3 {
-        top: -450px;
-        left: -20px;
-    }
-    .footer_1 img{
-        padding-bottom: 20px;
-    }
-    .request__form iframe {
-        width: 350px;
-        height: 600px;
-    }
-    .menu {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        width: 80%;
-        padding: 5% 10%;
-        margin: auto;
-    }
-    .menu__inner {
-        width: 55px;
-    }
-    .tracks {
-        width: 90%;
-    }
-    .aboutHack {
-        padding: 2% 10%;
-    }
+@media screen and (max-width: 600px) {
+
 }
