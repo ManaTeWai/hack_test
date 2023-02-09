@@ -4,7 +4,7 @@ let el3 = document.getElementById('el3')
 let el4 = document.getElementById('el4')
 
 window.addEventListener('resize', function () {
-    if (window.innerWidth <= 600) {
+    if (window.innerWidth <= 575) {
       el2.classList.add('order-3');
       el2.classList.remove('order-1');
     } else {
